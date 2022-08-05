@@ -1,0 +1,39 @@
+.container-cards {
+  position: relative;
+  top: 60vh;
+}
+.cards__column {
+  background-color: rgb(133, 132, 132);
+  margin: 0 auto;
+  width: 90%;
+  border: 1px solid #000;
+  border-radius: 15px;
+}
+.column__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.column__content-stylys {
+  cursor: pointer;
+  margin: 10px;
+  padding: 5px;
+  width: 200px;
+  height: 250px;
+  background: rgb(216, 213, 213);
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 10%;
+  transition: color, background 0.3s ease 0s;
+  &:hover {
+    background: rgb(88, 88, 88);
+    color: rgb(209, 209, 209);
+  }
+}
+
+.comment-vatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
+}
