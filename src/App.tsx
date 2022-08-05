@@ -29,11 +29,6 @@ class App extends React.Component {
               <Button variant="outline-info">Form</Button>
             </Link>
           </Nav.Item>
-          {/* <Nav.Item>
-            <Link to="/Movie">
-              <Button variant="outline-info">Movie</Button>
-            </Link>
-          </Nav.Item> */}
         </Nav>
         <Routes>
           <Route path="/" element={<MeinAPI />} />

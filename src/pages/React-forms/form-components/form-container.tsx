@@ -32,7 +32,6 @@ export default function FormContainer() {
               name:
               <input
                 required
-                // minLength={2}
                 className="form-main__input-text"
                 type="text"
                 {...register('username')}

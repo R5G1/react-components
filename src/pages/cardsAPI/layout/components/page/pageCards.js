@@ -1,13 +1,5 @@
 function Movie(props) {
-  {
-    /* <div */
-  }
-  //   className="right"
-  //   onClick={(event) => {
-  //     event.preventDefault();
-  //     props.readMoreHandler(imdbID);
-  //   }}
-  // >
+
   const { Title, Year, Runtime, Genre, Actors, Plot, Poster } = props;
   const text = Title.replace(/^a-z0-9 /i, '').replace(/\s/, '+');
   props.readMoreHandler(imdbID);
